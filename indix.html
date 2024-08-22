@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karate Institute</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Karate Institute</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#instructors">Instructors</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Karate Institute</h2>
+            <p>Empower yourself with the art of Karate</p>
+            <button onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Karate Institute has been empowering individuals with self-defense and martial arts skills for over 20 years.</p>
+        </div>
+    </section>
+
+    <section id="classes" class="classes">
+        <div class="container">
+            <h2>Our Classes</h2>
+            <div class="class-list">
+                <div class="class-item">
+                    <h3>Beginner Class</h3>
+                    <p>Perfect for those who are new to karate.</p>
+                </div>
+                <div class="class-item">
+                    <h3>Intermediate Class</h3>
+                    <p>Build on your basic skills with more advanced techniques.</p>
+                </div>
+                <div class="class-item">
+                    <h3>Advanced Class</h3>
+                    <p>For experienced students looking to refine their skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instructors" class="instructors">
+        <div class="container">
+            <h2>Our Instructors</h2>
+            <div class="instructor-list">
+                <div class="instructor-item">
+                    <h3>Sensei John Doe</h3>
+                    <p>8th Dan Black Belt with 25 years of experience.</p>
+                </div>
+                <div class="instructor-item">
+                    <h3>Sensei Jane Smith</h3>
+                    <p>6th Dan Black Belt and national champion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Karate Institute. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="karate.js"></script>
+</body>
+</html>
